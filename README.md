@@ -14,7 +14,7 @@
 •	Every tables in database should have “tbl_” prefix, and every column should have “cln_” prefix.  
 •	Use EF Fluent API for entity mapping. Entities configurations should located in separate classes.  
 •	Use Sql method and sql queries in migrations instead of usind Seed method in Configuration class, for examlpe:  
-   ``Sql(@"insert into tbl_items (cln_description, cln_price) values   
+&nbsp;&nbsp;&nbsp;  ``Sql(@"insert into tbl_items (cln_description, cln_price) values   
                  ('56'' Blue Freen', 3.5),  
                  ('Spline End (Xtra Large)', 0.25)  
                 ");  ``  
